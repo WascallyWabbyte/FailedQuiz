@@ -1,0 +1,14 @@
+<%- include('../partials/header') %>
+    <form action="/index" method="POST">
+      <div class="form-group">
+        <label>Content:</label>
+        <textarea class="form-control" type="text" name="cluck"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label>Image URL:</label>
+        <input class="form-control" type="text" name="pictureUrl">
+      </div>
+        <input type="submit" class="btn btn-primary" value="Submit">
+    </form>
+<%- include('../partials/footer') %>

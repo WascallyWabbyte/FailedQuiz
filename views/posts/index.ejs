@@ -1,0 +1,12 @@
+<%- include("../partials/header") %>
+
+<div class="card">
+  <a href="/posts/<%= post.id %>"><img class="card-img-top" src="<%= post.pictureUrl %>"></a>
+
+  <div class="card-body">
+    <h4 class="card-title"><%= post.username %></h4>
+    <p class="card-text"><%= post.cluck %></p>
+  </div>
+</div>
+
+<%- include("../partials/footer") %>
