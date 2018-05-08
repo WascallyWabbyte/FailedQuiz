@@ -1,0 +1,24 @@
+{
+  "name": "cluckr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "db:create": "createdb --echo fotorol_dev",
+    "db:drop": "dropdb --echo fotorol_dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "knex": "^0.14.6",
+    "morgan": "^1.9.0",
+    "pg": "^7.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  }
+}
